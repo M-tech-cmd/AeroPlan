@@ -1,5 +1,5 @@
 {
-  "name": "travel-agency",
+  "name": "aeroplan",
   "private": true,
   "type": "module",
   "scripts": {
@@ -19,7 +19,9 @@
     "@syncfusion/ej2-react-maps": "^31.1.17",
     "@syncfusion/ej2-react-navigations": "^31.1.20",
     "@syncfusion/ej2-react-splitbuttons": "^31.1.17",
+    "appwrite": "^21.2.1",
     "clsx": "^2.1.1",
+    "dayjs": "^1.11.18",
     "isbot": "^5.1.31",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

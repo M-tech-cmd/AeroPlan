@@ -6,6 +6,13 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig({
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
   ssr: {
-    noExternal: [/@asyncfusion/]
-  }
+    noExternal: [/@syncfusion/],
+  },
+  optimizeDeps: {
+    include: [
+      "@syncfusion/ej2-base",
+      "@syncfusion/ej2-react-navigations",
+      "@syncfusion/ej2-navigations",
+    ],
+  },
 });
