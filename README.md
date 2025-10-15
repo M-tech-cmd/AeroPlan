@@ -1,71 +1,61 @@
-🛫 AeroPlan — Smart Travel Agency Platform
+# 🛫 **AeroPlan — Smart Travel Agency Platform**
 
-A modern travel agency platform with an admin dashboard and public site, designed to redefine how people plan and book trips.Generate AI-powered trip itineraries based on country, travel style, interests, group type, and budget — and book adventures effortlessly.
+AeroPlan is a **modern travel agency platform** with an **admin dashboard** and **public site**, designed to transform how people plan, manage, and book their trips. It uses **AI-powered itinerary generation** to recommend trips based on user preferences such as destination, travel style, interests, group type, and budget — helping travelers discover adventures effortlessly.
 
-🌍 Overview
+---
 
-AeroPlan is a next-generation travel booking and management system.It integrates AI-driven trip generation, real-time data visualization, and a seamless booking experience — all wrapped in a clean, responsive UI.
+## 🌍 **Overview**
 
-Built with a scalable architecture, it ensures both travelers and administrators enjoy a powerful yet intuitive platform.
+**AeroPlan** combines **AI intelligence**, **real-time data visualization**, and a **responsive, elegant design** to offer a next-generation travel experience. It’s built for both travelers and administrators, ensuring smooth trip management, intuitive analytics, and an engaging booking experience.
 
-⚙️ Tech Stack
+The platform’s **scalable architecture** and **modern technologies** make it ideal for growth, performance, and adaptability.
 
-CategoryTechnologies
+---
 
+## ⚙️ **Tech Stack**
 
+| Category           | Technologies                      |
+| ------------------ | --------------------------------- |
+| **Frontend**       | React 19 + Vite                   |
+| **Routing**        | React Router v7 (Framework Mode)  |
+| **Backend / BaaS** | Appwrite                          |
+| **UI / Styling**   | Tailwind CSS                      |
+| **Components**     | Syncfusion UI Components          |
+| **AI / Logic**     | AI-based trip itinerary generator |
 
-Frontend
+---
 
-React 19 + Vite
+## 🔋 **Key Features**
 
-Routing
+✨ **AI-Powered Trip Generator** — Create detailed trip plans using user preferences like location, interests, and travel type.
 
-React Router v7 (Framework Mode)
+🏖️ **Trip Booking System** — Book and manage travel packages directly from the website.
 
-Backend / BaaS
+🧭 **Admin Dashboard** — Manage users, trips, and bookings with detailed analytics and insights.
 
-Appwrite
+📊 **Data Analytics & Metrics** — Visualize trip statistics, user trends, and growth with **Syncfusion charts**.
 
-UI / Styling
+🧩 **Trip Management Tools** — Add, edit, and view comprehensive trip information.
 
-Tailwind CSS
+📱 **Responsive Design** — Fully optimized for mobile, tablet, and desktop devices.
 
-Components
+🔒 **Secure Authentication** — Powered by Appwrite for safe and reliable user management.
 
-Syncfusion UI Components
+⚙️ **Modular & Scalable Codebase** — Reusable components built for maintainability and performance.
 
-AI / Logic
+---
 
-Integrated AI for trip itinerary generation
+## 🚧 **Coming Soon**
 
-🔋 Features
+* 💳 **Bookings & Payments** (M-Pesa / Flutterwave Integration)
+* 🧠 **Advanced AI Personalization** for custom travel suggestions
+* 🌐 **Multi-language Support**
 
-✨ AI-Powered Trip GeneratorGenerate complete trip itineraries based on user preferences — destination, travel style, interests, and budget.
+---
 
-🏖️ Trip Booking SystemBook curated trips directly from the public-facing website.
+## 🚀 **Getting Started**
 
-🧭 Admin DashboardManage users, trips, and bookings from a powerful dashboard interface.
-
-📈 Analytics & MetricsVisualize user growth, popular destinations, and booking trends using interactive Syncfusion charts.
-
-🧩 Trip Management ToolsCreate, edit, and manage trip details with detailed overviews.
-
-📱 Responsive Modern DesignFully optimized for mobile, tablet, and desktop screens.
-
-🔒 Secure AuthenticationAppwrite handles secure login, registration, and data management.
-
-⚙️ Modular & Scalable CodebaseReusable components and modern development practices for easy maintenance and expansion.
-
-🚧 Coming Soon
-
-💳 Bookings & Payments integration
-
-🧠 Advanced AI personalization
-
-🌐 Multi-language support
-
-🚀 Getting Started
-
+```bash
 # Clone the repository
 git clone https://github.com/M-tech-cmd/AeroPlan.git
 cd AeroPlan
@@ -75,10 +65,13 @@ npm install
 
 # Run the project
 npm run dev
+```
 
+Visit [http://localhost:5173](http://localhost:5173) in your browser.
 
-Then visit http://localhost:5173 in your browser.
+---
 
-📄 License
+## 📄 **License**
 
-MIT License © 2025 M-Tech-CmdAll Rights Reserved.
+MIT License © 2025 **M-Tech-Cmd**
+All Rights Reserved.
