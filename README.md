@@ -1,87 +1,84 @@
-# Welcome to React Router!
+🛫 AeroPlan — Smart Travel Agency Platform
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A modern travel agency platform with an admin dashboard and public site, designed to redefine how people plan and book trips.Generate AI-powered trip itineraries based on country, travel style, interests, group type, and budget — and book adventures effortlessly.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+🌍 Overview
 
-## Features
+AeroPlan is a next-generation travel booking and management system.It integrates AI-driven trip generation, real-time data visualization, and a seamless booking experience — all wrapped in a clean, responsive UI.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+Built with a scalable architecture, it ensures both travelers and administrators enjoy a powerful yet intuitive platform.
 
-## Getting Started
+⚙️ Tech Stack
 
-### Installation
+CategoryTechnologies
 
-Install the dependencies:
 
-```bash
+
+Frontend
+
+React 19 + Vite
+
+Routing
+
+React Router v7 (Framework Mode)
+
+Backend / BaaS
+
+Appwrite
+
+UI / Styling
+
+Tailwind CSS
+
+Components
+
+Syncfusion UI Components
+
+AI / Logic
+
+Integrated AI for trip itinerary generation
+
+🔋 Features
+
+✨ AI-Powered Trip GeneratorGenerate complete trip itineraries based on user preferences — destination, travel style, interests, and budget.
+
+🏖️ Trip Booking SystemBook curated trips directly from the public-facing website.
+
+🧭 Admin DashboardManage users, trips, and bookings from a powerful dashboard interface.
+
+📈 Analytics & MetricsVisualize user growth, popular destinations, and booking trends using interactive Syncfusion charts.
+
+🧩 Trip Management ToolsCreate, edit, and manage trip details with detailed overviews.
+
+📱 Responsive Modern DesignFully optimized for mobile, tablet, and desktop screens.
+
+🔒 Secure AuthenticationAppwrite handles secure login, registration, and data management.
+
+⚙️ Modular & Scalable CodebaseReusable components and modern development practices for easy maintenance and expansion.
+
+🚧 Coming Soon
+
+💳 Bookings & Payments integration
+
+🧠 Advanced AI personalization
+
+🌐 Multi-language support
+
+🚀 Getting Started
+
+# Clone the repository
+git clone https://github.com/M-tech-cmd/AeroPlan.git
+cd AeroPlan
+
+# Install dependencies
 npm install
-```
 
-### Development
-
-Start the development server with HMR:
-
-```bash
+# Run the project
 npm run dev
-```
 
-Your application will be available at `http://localhost:5173`.
 
-## Building for Production
+Then visit http://localhost:5173 in your browser.
 
-Create a production build:
+📄 License
 
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+MIT License © 2025 M-Tech-CmdAll Rights Reserved.
